@@ -1,0 +1,225 @@
+.yellow-bg-btn {
+	background-color: #ee3a43 !important;
+	border-radius: 30px;
+	box-shadow: 1px 1px 1px #bcbcbc;
+	font-weight: bold;
+	color:#fff;
+}
+.login-box {
+    padding: 15px;
+    margin: 0 auto;
+    width: 300px;
+    position: relative;
+    top: 20%;
+}
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+/****** padding css /************/
+.padding-none {
+    padding: 0px !important;
+}
+
+.paddingtb30 { padding:30px 0px;}
+.paddingleft0 {
+    padding-left: 0px !important;
+}
+
+.block {
+    display: block !important;
+}
+.btn {
+    font-size: 15px !important;
+}
+.bg-image {
+    /* Full height */
+    height: 100vh;
+    background-image: url('/images/FHS_IC_WebPortal_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-image-forgot {
+    /* Full height */
+    height: 100vh;
+    background-image: url('/images/FHS_IC_WebPortal_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/************** Animation css */
+/* form starting stylings ------------------------------- */
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+    .group input {
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        color: #333;
+        border-bottom: 1px solid #757575;
+    }
+        .group input:focus {
+            border-bottom: 0px solid #757575;
+        }
+        input:focus {
+            outline: none;
+        }
+
+/* LABEL ======================================= */
+.group label {
+    /*color: #333;*/
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+.group input:focus ~ label, input:valid ~ label {
+    top: -14px;
+	left:0;
+    font-size: 14px;
+    color: #333;
+}
+.group .form-control {
+    border-bottom: 1px solid #757575;
+    border-radius:0;
+    box-shadow: none;
+    outline: 0px;
+}
+.dark-grey-txt {
+    color: #000000 !important;
+;}
+
+/* BOTTOM BARS ================================= */
+.group .bar {
+    position: relative;
+    display: block;
+  
+}
+
+    .group .bar:before, .bar:after {
+        content: '';
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #333;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    .group .bar:before {
+        left: 50%;
+    }
+
+    .group .bar:after {
+        right: 50%;
+    }
+
+/* active state */
+.group input:focus ~ .bar:before, input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.group .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* active state */
+.group input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+.login-footer {
+    bottom: 20px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+
+}
+.btn-default:hover {
+	color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus, .nav .nav-link.active i.mdi, .nav .nav-link:hover i.mdi {
+	color: #8dc63f;
+}
+button.float-icon {
+	border: 0px;
+	box-shadow: 0px 2px 5px #666;
+}
+.modal-open nav.navbar.fixed-top {
+    padding-right:1rem !important;
+}
+.btn-primary:hover {
+    border-color: transparent !important;
+}
+.paddingt40 {
+    padding-top: 20px 40px 0;
+}
+input, select, p, button, a, .btn, label, .login-footer {
+    font-size: 12px !important;
+}
+.dropdown-item, .dropdown-header, .field-validation-error, .text-danger {
+    font-size: 12px;
+}
+@media (max-height:750px) {
+    .login-footer {
+        position: relative !important;
+        margin-top:35% !important;
+    }
+}

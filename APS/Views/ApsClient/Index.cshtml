@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>APS Index</h2>
+In APS Client
+<table id="jqgStarWarsCharacters" cellpadding="0" cellspacing="0"></table>
+<div id="jqgpStarWarsCharacters" style="text-align:center;"></div>
+@section scripts {
+    <script type="text/javascript">
+        $(function () {
+            debugger;
+            $('#jqgStarWarsCharacters').jqGrid({
+                url: '@Url.Action("Characters", "ApsClient")',
+                datatype: 'json',
+                mtype: 'POST',
+                cmTemplate: { align: 'center' },
+                colNames: ['Name', 'Email', 'Company Name', 'Account Type', 'Original Account Number', 'Fund To' ],
+                colModel: [
+                            { name: 'Name' },
+                            { name: 'Email' },
+                            { name: 'CompanyName' },
+                            { name: 'AccountType' },
+                            { name: 'OriginalAccountNumber' },
+                            { name: 'FundTo'},
+                           
+                          ],
+                caption: 'StarWars Characters',
+                footerrow: true,
+                userDataOnFooter: true,
+                jsonReader: { repeatitems: false, id: 'Id' },
+                pager: $('#jqgpStarWarsCharacters'),
+                rowNum: 10,
+                sortname: 'Name',
+                sortorder: 'asc',
+                viewrecords: true,
+                height: '100%'
+            });
+        });
+    </script>
+}
