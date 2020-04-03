@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.Domain", "APS.Domain\APS.Domain.csproj", "{B0002A11-315D-4577-9006-88E0FABAECDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.Repository", "APS.Repository\APS.Repository.csproj", "{A2703DC6-2CC6-4CBB-ADC2-6B853C39A572}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.Service", "APS.Business\APS.Service.csproj", "{B010810E-5D0F-4030-96F7-4ADEB6B552D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.DTO", "APS.BusinessModel\APS.DTO.csproj", "{43E15EFE-ADC0-422A-92EC-472DBB6B0E3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.Common", "APS.Common\APS.Common.csproj", "{FD80D12D-0D2E-4424-AF5E-E3B484D46FC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.Web", "APS\APS.Web.csproj", "{F4459D64-8E8B-4F8D-8647-2C4AFE674BD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.UnitTest", "APS.UnitTest\APS.UnitTest.csproj", "{674C4851-D389-427A-B007-132DB8363F59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APS.CommonModel", "APS.CommonModel\APS.CommonModel.csproj", "{B327E37A-B0CE-4219-9D8F-B20976418171}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0002A11-315D-4577-9006-88E0FABAECDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0002A11-315D-4577-9006-88E0FABAECDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0002A11-315D-4577-9006-88E0FABAECDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0002A11-315D-4577-9006-88E0FABAECDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2703DC6-2CC6-4CBB-ADC2-6B853C39A572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2703DC6-2CC6-4CBB-ADC2-6B853C39A572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2703DC6-2CC6-4CBB-ADC2-6B853C39A572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2703DC6-2CC6-4CBB-ADC2-6B853C39A572}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B010810E-5D0F-4030-96F7-4ADEB6B552D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B010810E-5D0F-4030-96F7-4ADEB6B552D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B010810E-5D0F-4030-96F7-4ADEB6B552D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B010810E-5D0F-4030-96F7-4ADEB6B552D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E15EFE-ADC0-422A-92EC-472DBB6B0E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E15EFE-ADC0-422A-92EC-472DBB6B0E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E15EFE-ADC0-422A-92EC-472DBB6B0E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E15EFE-ADC0-422A-92EC-472DBB6B0E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD80D12D-0D2E-4424-AF5E-E3B484D46FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD80D12D-0D2E-4424-AF5E-E3B484D46FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD80D12D-0D2E-4424-AF5E-E3B484D46FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD80D12D-0D2E-4424-AF5E-E3B484D46FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4459D64-8E8B-4F8D-8647-2C4AFE674BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4459D64-8E8B-4F8D-8647-2C4AFE674BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4459D64-8E8B-4F8D-8647-2C4AFE674BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4459D64-8E8B-4F8D-8647-2C4AFE674BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{674C4851-D389-427A-B007-132DB8363F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{674C4851-D389-427A-B007-132DB8363F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{674C4851-D389-427A-B007-132DB8363F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{674C4851-D389-427A-B007-132DB8363F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B327E37A-B0CE-4219-9D8F-B20976418171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B327E37A-B0CE-4219-9D8F-B20976418171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B327E37A-B0CE-4219-9D8F-B20976418171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B327E37A-B0CE-4219-9D8F-B20976418171}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9158BF2E-6B34-47EE-A13B-54A54E6A882C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://silicustfs.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = APS.Domain\\APS.Domain.csproj
+		SccProjectName1 = APS.Domain
+		SccLocalPath1 = APS.Domain
+		SccProjectUniqueName2 = APS.Repository\\APS.Repository.csproj
+		SccProjectName2 = APS.Repository
+		SccLocalPath2 = APS.Repository
+		SccProjectUniqueName3 = APS.Business\\APS.Service.csproj
+		SccProjectName3 = APS.Business
+		SccLocalPath3 = APS.Business
+		SccProjectUniqueName4 = APS.BusinessModel\\APS.DTO.csproj
+		SccProjectName4 = APS.BusinessModel
+		SccLocalPath4 = APS.BusinessModel
+		SccProjectUniqueName5 = APS.Common\\APS.Common.csproj
+		SccProjectName5 = APS.Common
+		SccLocalPath5 = APS.Common
+		SccProjectUniqueName6 = APS\\APS.Web.csproj
+		SccProjectName6 = APS
+		SccLocalPath6 = APS
+		SccProjectUniqueName7 = APS.UnitTest\\APS.UnitTest.csproj
+		SccProjectName7 = APS.UnitTest
+		SccLocalPath7 = APS.UnitTest
+		SccProjectUniqueName8 = APS.CommonModel\\APS.CommonModel.csproj
+		SccProjectName8 = APS.CommonModel
+		SccLocalPath8 = APS.CommonModel
+	EndGlobalSection
+EndGlobal
